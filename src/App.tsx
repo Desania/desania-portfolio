@@ -395,7 +395,7 @@ export default function App() {
 
       {/* Projects Section */}
       <section id="projects" className="py-32 px-6 md:px-24">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl text-lg mx-auto">
           <SectionTitle subtitle="A selection of my premium WordPress projects with custom designs.">
             Featured Projects
           </SectionTitle>
