@@ -238,6 +238,7 @@ export default function App() {
   useEffect(() => {
     // Smooth Scroll
     const lenis = new Lenis();
+    lenis.on("scroll", ScrollTrigger.update);
     function raf(time: number) {
       lenis.raf(time);
       requestAnimationFrame(raf);
@@ -268,10 +269,10 @@ export default function App() {
       reveals.forEach((el) => {
         gsap.to(el, {
           scrollTrigger: {
-            trigger: el,
-            start: "top 85%",
-            toggleActions: "play none none none"
-          },
+          trigger: el,
+          start: "top 85%",
+          toggleActions: "play none none none"
+        },
           y: 0,
           opacity: 1,
           duration: 1,
