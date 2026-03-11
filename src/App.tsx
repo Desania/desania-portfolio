@@ -15,6 +15,8 @@ import project5 from "./assets/project-5.png";
 import project7 from "./assets/project-7.png";
 import project8 from "./assets/project-8.png";
 import project10 from "./assets/project-10.png";
+import acf from "./assets/images%20(8).png";
+import css3 from "./assets/ChatGPT%20Image%20Mar%2011%2C%202026%2C%2011_21_44%20PM.png";
 import { 
   ExternalLink, 
   Mail, 
@@ -115,9 +117,9 @@ const SKILLS = [
   { name: "WordPress", icon: "https://cdn.simpleicons.org/wordpress/ffffff" },
   { name: "Elementor", icon: "https://cdn.simpleicons.org/elementor/ffffff" },
   { name: "Divi", icon: "https://cdn.simpleicons.org/blueprint/ffffff" },
-  { name: "ACF", icon: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/images%20(8).png" },
+  { name: "ACF", icon: acf },
   { name: "HTML5", icon: "https://cdn.simpleicons.org/html5/ffffff" },
-  { name: "CSS3", icon: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/ChatGPT%20Image%20Mar%2011%2C%202026%2C%2011_21_44%20PM.png" },
+  { name: "CSS3", icon: css3 },
   { name: "Bootstrap", icon: "https://cdn.simpleicons.org/bootstrap/ffffff" },
   { name: "JavaScript", icon: "https://cdn.simpleicons.org/javascript/ffffff" },
   { name: "Basic React.js", icon: "https://cdn.simpleicons.org/react/ffffff" },
