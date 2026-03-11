@@ -115,7 +115,7 @@ const SKILLS = [
   { name: "WordPress", icon: "https://cdn.simpleicons.org/wordpress/ffffff" },
   { name: "Elementor", icon: "https://cdn.simpleicons.org/elementor/ffffff" },
   { name: "Divi", icon: "https://cdn.simpleicons.org/blueprint/ffffff" },
-  { name: "ACF", icon: "https://cdn.simpleicons.org/advancedcustomfields/ffffff" },
+  { name: "ACF", icon: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/images%20(8).png" },
   { name: "HTML5", icon: "https://cdn.simpleicons.org/html5/ffffff" },
   { name: "CSS3", icon: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/ChatGPT%20Image%20Mar%2011%2C%202026%2C%2011_21_44%20PM.png" },
   { name: "Bootstrap", icon: "https://cdn.simpleicons.org/bootstrap/ffffff" },
