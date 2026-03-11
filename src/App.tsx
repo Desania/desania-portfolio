@@ -15,8 +15,8 @@ import project5 from "./assets/project-5.png";
 import project7 from "./assets/project-7.png";
 import project8 from "./assets/project-8.png";
 import project10 from "./assets/project-10.png";
-import acf from "./assets/images%20(8).png";
-import css3 from "./assets/ChatGPT%20Image%20Mar%2011%2C%202026%2C%2011_21_44%20PM.png";
+import css3 from "./assets/css3.png";
+import acf from "./assets/acf.png";
 import { 
   ExternalLink, 
   Mail, 
