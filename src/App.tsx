@@ -38,7 +38,7 @@ gsap.registerPlugin(ScrollTrigger);
 // --- Data ---
 
 const FEATURED_PROJECTS = [
-  { name: "Bigeye Agency", url: "https://bigeyeagency.com/", desc: "Full-service creative and media agency.", image: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=800" },
+  { name: "Bigeye Agency", url: "https://bigeyeagency.com/", desc: "Full-service creative and media agency.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-1.png?auto=format&fit=crop&q=80&w=800" },
   { name: "Purple Canyon", url: "https://purplecanyon.com/", desc: "Wellness and self-care e-commerce brand.", image: "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&q=80&w=800" },
   { name: "Project Sign", url: "https://projectsign.us/", desc: "Professional signage and vehicle wrap solutions.", image: "https://images.unsplash.com/photo-1611930022073-b7a4bb5fcccd?auto=format&fit=crop&q=80&w=800" },
   { name: "G5 Architects", url: "https://g5architects.in/", desc: "Modern architectural and interior design.", image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=800" },
