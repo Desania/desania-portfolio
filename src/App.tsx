@@ -117,7 +117,7 @@ const SKILLS = [
   { name: "Divi", icon: "https://cdn.simpleicons.org/blueprint/ffffff" },
   { name: "ACF", icon: "https://cdn.simpleicons.org/advancedcustomfields/ffffff" },
   { name: "HTML5", icon: "https://cdn.simpleicons.org/html5/ffffff" },
-  { name: "CSS3", icon: "https://simpleicons.org/icons/css3.svg" },
+  { name: "CSS3", icon: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/ChatGPT%20Image%20Mar%2011%2C%202026%2C%2011_21_44%20PM.png" },
   { name: "Bootstrap", icon: "https://cdn.simpleicons.org/bootstrap/ffffff" },
   { name: "JavaScript", icon: "https://cdn.simpleicons.org/javascript/ffffff" },
   { name: "Basic React.js", icon: "https://cdn.simpleicons.org/react/ffffff" },
