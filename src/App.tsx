@@ -456,7 +456,7 @@ export default function App() {
             <div className="gsap-reveal border-l border-accent/20 pl-8 relative">
               <div className="absolute top-0 left-0 -translate-x-1/2 w-4 h-4 bg-accent rounded-full"></div>
               <h3 className="text-3xl font-display italic mb-4">WordPress Developer</h3>
-              <ul className="space-y-4 text-muted text-lg font-creative italic">
+              <ul className="space-y-4 text-muted text-2xl font-creative italic">
                 <li className="flex items-start gap-3">
                   <ChevronRight className="w-5 h-5 mt-1 text-accent flex-shrink-0" />
                   Expert WordPress theme customization and development using HTML, CSS, and Bootstrap.
@@ -498,8 +498,8 @@ export default function App() {
             {SERVICES.map((service, i) => (
               <div key={i} className="p-10 bg-card border border-white/5 rounded-3xl hover:bg-neutral-900 transition-colors gsap-reveal">
                 <div className="text-accent mb-6">{service.icon}</div>
-                <h3 className="text-[20px] font-medium mb-4">{service.title}</h3>
-                <p className="text-[20px] text-muted leading-relaxed">{service.desc}</p>
+                <h3 className="text-[24px] font-medium mb-4">{service.title}</h3>
+                <p className="text-[24px] text-muted leading-relaxed">{service.desc}</p>
               </div>
             ))}
           </div>
@@ -520,7 +520,7 @@ export default function App() {
                   <Mail className="w-6 h-6" />
                 </div>
                 <div>
-                  <p className="text-sm text-muted uppercase tracking-widest mb-1">Email Me</p>
+                  <p className="text-2xl text-muted uppercase tracking-widest mb-1">Email Me</p>
                   <p className="text-xl font-medium">gargdesania@gmail.com</p>
                 </div>
               </a>
@@ -530,7 +530,7 @@ export default function App() {
                   <Phone className="w-6 h-6" />
                 </div>
                 <div>
-                  <p className="text-sm text-muted uppercase tracking-widest mb-1">Call Me</p>
+                  <p className="text-2xl text-muted uppercase tracking-widest mb-1">Call Me</p>
                   <p className="text-xl font-medium">+91 7973406533</p>
                 </div>
               </a>
@@ -540,7 +540,7 @@ export default function App() {
                   <Linkedin className="w-6 h-6" />
                 </div>
                 <div>
-                  <p className="text-sm text-muted uppercase tracking-widest mb-1">LinkedIn</p>
+                  <p className="text-2xl text-muted uppercase tracking-widest mb-1">LinkedIn</p>
                   <p className="text-xl font-medium">Desania Garg</p>
                 </div>
               </a>
