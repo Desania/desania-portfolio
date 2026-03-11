@@ -46,7 +46,7 @@ const FEATURED_PROJECTS = [
   { name: "AMS Construction", url: "https://amsconstructionlondonltd.co.uk/", desc: "London-based construction and renovation experts.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-3.png?auto=format&fit=crop&q=80&w=800" },
   { name: "Palacia Skincare", url: "https://palaciaskincare.com/", desc: "Premium skincare and beauty e-commerce.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-7.png?auto=format&fit=crop&q=80&w=800" },
   { name: "Blood Fitness", url: "https://bloodfitness.co.uk/", desc: "Jersey's premier martial arts and fitness academy.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-5.png?auto=format&fit=crop&q=80&w=800" },
-  { name: "Growth Mindset", url: "https://lifelessonsglobal.com/growth-mindset/", desc: "Educational platform for kids' confidence and resilience.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-9.png?auto=format&fit=crop&q=80&w=800" }
+  { name: "Growth Mindset", url: "https://lifelessonsglobal.com/growth-mindset/", desc: "Educational platform for kids' confidence and resilience.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-1.png" }
 ];
 
 const MORE_PROJECTS = [
