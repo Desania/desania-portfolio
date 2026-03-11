@@ -143,7 +143,7 @@ const SERVICES = [
 const SectionTitle = ({ children, subtitle, centered = false }: { children: React.ReactNode, subtitle?: string, centered?: boolean }) => (
   <div className={cn("mb-16 gsap-reveal", centered && "text-center")}>
     <h2 className="text-5xl md:text-7xl font-display italic mb-4">{children}</h2>
-    {subtitle && <p className={cn("text-muted text-lg max-w-2xl", centered && "mx-auto")}>{subtitle}</p>}
+    {subtitle && <p className={cn("text-muted text-2xl max-w-2xl", centered && "mx-auto")}>{subtitle}</p>}
     <div className={cn("h-px w-24 bg-accent mt-8", centered && "mx-auto")}></div>
   </div>
 );
