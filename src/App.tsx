@@ -7,6 +7,14 @@ import React, { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
+import project1 from "./assets/project-1.png";
+import project2 from "./assets/project-2.png";
+import project3 from "./assets/project-3.png";
+import project4 from "./assets/project-4.png";
+import project5 from "./assets/project-5.png";
+import project7 from "./assets/project-7.png";
+import project8 from "./assets/project-8.png";
+import project10 from "./assets/project-10.png";
 import { 
   ExternalLink, 
   Mail, 
@@ -38,15 +46,15 @@ gsap.registerPlugin(ScrollTrigger);
 // --- Data ---
 
 const FEATURED_PROJECTS = [
-  { name: "Bigeye Agency", url: "https://bigeyeagency.com/", desc: "Full-service creative and media agency.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-1.png?auto=format&fit=crop&q=80&w=800" },
-  { name: "Purple Canyon", url: "https://purplecanyon.com/", desc: "Wellness and self-care e-commerce brand.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-10.png?auto=format&fit=crop&q=80&w=800" },
-  { name: "Project Sign", url: "https://projectsign.us/", desc: "Professional signage and vehicle wrap solutions.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-8.png?auto=format&fit=crop&q=80&w=800" },
-  { name: "G5 Architects", url: "https://g5architects.in/", desc: "Modern architectural and interior design.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-2.png?auto=format&fit=crop&q=80&w=800" },
-  { name: "Uttara Electronics", url: "https://uttaraelectronics.com/", desc: "Innovative green and renewable energy solutions.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-4.png?auto=format&fit=crop&q=80&w=800" },
-  { name: "AMS Construction", url: "https://amsconstructionlondonltd.co.uk/", desc: "London-based construction and renovation experts.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-3.png?auto=format&fit=crop&q=80&w=800" },
-  { name: "Palacia Skincare", url: "https://palaciaskincare.com/", desc: "Premium skincare and beauty e-commerce.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-7.png?auto=format&fit=crop&q=80&w=800" },
-  { name: "Blood Fitness", url: "https://bloodfitness.co.uk/", desc: "Jersey's premier martial arts and fitness academy.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-5.png?auto=format&fit=crop&q=80&w=800" },
-  { name: "Growth Mindset", url: "https://lifelessonsglobal.com/growth-mindset/", desc: "Educational platform for kids' confidence and resilience.", image: "https://github.com/Desania/desania-portfolio/blob/main/src/assets/project-1.png" }
+  { name: "Bigeye Agency", url: "https://bigeyeagency.com/", desc: "Full-service creative and media agency.", image: project1 },
+  { name: "Purple Canyon", url: "https://purplecanyon.com/", desc: "Wellness and self-care e-commerce brand.", image: project10 },
+  { name: "Project Sign", url: "https://projectsign.us/", desc: "Professional signage and vehicle wrap solutions.", image: project8 },
+  { name: "G5 Architects", url: "https://g5architects.in/", desc: "Modern architectural and interior design.", image: project2 },
+  { name: "Uttara Electronics", url: "https://uttaraelectronics.com/", desc: "Innovative green and renewable energy solutions.", image: project4 },
+  { name: "AMS Construction", url: "https://amsconstructionlondonltd.co.uk/", desc: "London-based construction and renovation experts.", image: project3 },
+  { name: "Palacia Skincare", url: "https://palaciaskincare.com/", desc: "Premium skincare and beauty e-commerce.", image: project7 },
+  { name: "Blood Fitness", url: "https://bloodfitness.co.uk/", desc: "Jersey's premier martial arts and fitness academy.", image: project5 },
+  { name: "Growth Mindset", url: "https://lifelessonsglobal.com/growth-mindset/", desc: "Educational platform for kids' confidence and resilience.", image: project1 }
 ];
 
 const MORE_PROJECTS = [
