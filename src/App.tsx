@@ -14,6 +14,7 @@ import project4 from "./assets/project-4.png";
 import project5 from "./assets/project-5.png";
 import project7 from "./assets/project-7.png";
 import project8 from "./assets/project-8.png";
+import project9 from "./assets/project-9.png";
 import project10 from "./assets/project-10.png";
 import css3 from "./assets/css3.png";
 import acf from "./assets/acf.png";
@@ -56,7 +57,7 @@ const FEATURED_PROJECTS = [
   { name: "AMS Construction", url: "https://amsconstructionlondonltd.co.uk/", desc: "London-based construction and renovation experts.", image: project3 },
   { name: "Palacia Skincare", url: "https://palaciaskincare.com/", desc: "Premium skincare and beauty e-commerce.", image: project7 },
   { name: "Blood Fitness", url: "https://bloodfitness.co.uk/", desc: "Jersey's premier martial arts and fitness academy.", image: project5 },
-  { name: "Growth Mindset", url: "https://lifelessonsglobal.com/growth-mindset/", desc: "Educational platform for kids' confidence and resilience.", image: project1 }
+  { name: "Growth Mindset", url: "https://lifelessonsglobal.com/growth-mindset/", desc: "Educational platform for kids' confidence and resilience.", image: project9 }
 ];
 
 const MORE_PROJECTS = [
